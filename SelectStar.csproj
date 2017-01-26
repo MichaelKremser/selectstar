@@ -50,4 +50,7 @@
     <Compile Include="SelectStarDbAccessMySql.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="create_db_user_mysql.sql" />
+  </ItemGroup>
 </Project>
